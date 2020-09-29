@@ -1,0 +1,165 @@
+@font-face {
+    font-family: 'Roboto Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Roboto Regular'), url('fonts/Roboto-Regular.woff') format('woff');
+    }
+    
+
+@font-face {
+    font-family: 'Optima';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Optima'), url('fonts/OPTIMA.woff') format('woff');
+    }
+    
+    
+    @font-face {
+    font-family: 'Optima Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Optima Italic'), url('fonts/Optima_Italic.woff') format('woff');
+    }
+    
+    
+    @font-face {
+    font-family: 'Optima Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Optima Medium'), url('fonts/Optima_Medium.woff') format('woff');
+    }
+    
+    
+    @font-face {
+    font-family: 'Optima Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Optima Bold'), url('fonts/OPTIMA_B.woff') format('woff');
+    }
+
+body{
+    font-family:'Roboto Regular';
+}
+.site-logo{
+    padding-top:20px;
+    padding-bottom:15px;
+    display:block;
+    text-align: center;
+}
+.site-logo img{
+    max-width: 199px;
+    border:1px solid rgba(255,255,255,0.7);
+}
+
+.nav-box{
+    font-family: Roboto Regular;
+    font-size: 16px;
+    font-weight: normal;
+    letter-spacing: 0;
+    line-height: 21px;
+    text-shadow: 0 0 10px 0 #846852;
+}
+.nav-box .nav-item{
+    padding-left:33px;
+    padding-right:33px;
+}
+.nav-box .nav-link{
+    padding:0 !important;
+}
+.nav-box .active a{
+    border-bottom:2px solid rgba(255,255,255,0.7);
+    font-weight: 400;
+}
+
+.banner-text-header{
+    top:200px;
+    position: relative;
+    max-width: 800px;
+    margin:0px auto;
+}
+.banner-text-header .banner-text-box {
+    max-width: 425px;
+    color: #FFFFFF;
+}
+.banner-text-header .banner-text-box p{
+    
+    font-family: Roboto Regular;
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: 52px;
+    text-shadow: 0 0 10px 0 #846852;
+    text-transform: uppercase;
+}
+.banner-text-header .banner-text-box span{
+    
+    color: #FFFFFF;
+    font-family: Roboto Regular;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 21px;
+    max-width:280px;
+    display: block;
+    text-shadow: 0 0 10px 0 #846852;
+}
+
+
+@media only screen and (max-width: 991px) {
+    .nav-box{
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 409px) {
+    .banner-text-header{
+        top:150px;
+    }
+    .banner-text-header .banner-text-box p{
+    
+        font-family: Roboto Regular;
+        font-size: 30px;
+        letter-spacing: 0;
+        line-height: 50px;
+        text-shadow: 0 0 10px 0 #846852;
+        text-transform: uppercase;
+    }
+}
+
+header{
+    height: 650px;
+    max-width: 1240px;
+    margin:0px auto;
+    background: 
+    linear-gradient(180deg, rgba(132,104,82,0.4) 0%,  rgba(132,104,82,0.4) 100%),
+    url(../images/header-banner-bg3x.png);
+    background-size: cover;
+}
+
+.clean-block{
+    margin-top:50px;
+    background:url(../images/Group\ 4@3x.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 1366px;
+    text-align:center;
+
+}
+.clean-block .clean-block-box{
+    max-width: 800px;
+    margin: 0px auto;
+    padding-top:40px;
+    padding-bottom:50px;
+    color: #5A5A5A;
+    font-family: Roboto Regular;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 21px;
+    text-align: center;
+}
+.clean-block h3{
+    color: #846852;
+    font-family: Roboto Regular;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: 31px;
+    text-transform: uppercase;
+}
+
